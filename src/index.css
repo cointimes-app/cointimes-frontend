@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, #root {
+  width: 400px;
+  height: 600px;
+}
+
+#root {
+  background-color: rgb(42, 42, 42);
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  color: rgb(238, 238, 238);
+}
+.MuiButton-outlinedPrimary .MuiButton-label{
+  color: #f44805;
+}
